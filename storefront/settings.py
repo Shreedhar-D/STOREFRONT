@@ -34,9 +34,12 @@ INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
-    'django.contrib.sessions',
+    # 'django.contrib.sessions', # temp memory on server, not in use
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    # local apps (register here)
+    'playground'
 ]
 
 MIDDLEWARE = [
